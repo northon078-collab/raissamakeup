@@ -13,6 +13,7 @@ Você pode colocar este site no ar em **menos de 2 minutos** de forma 100% gratu
 2. Arraste a pasta **`dist`** gerada neste projeto diretamente para o navegador.
 3. O Netlify publicará o site instantaneamente e gerará um link público (ex: `raissa-makeup.netlify.app`).
 4. Se quiser, você pode conectar seu domínio próprio (ex: `raissamakeup.com.br`) nas configurações do Netlify.
+5. *Dica sobre o Netlify Drawer*: O código já contém regras CSS para esconder qualquer badge/widget do Netlify para não cobrir o botão de agendamento. Se preferir desativar pelo painel do Netlify, vá em: *Site configuration > Deploy settings > Deploy previews > Desativar Netlify Drawer*.
 
 ### Opção 2: Vercel (Ideal para projetos React/Vite)
 1. Acesse [vercel.com](https://vercel.com) e conecte sua conta (Google ou GitHub).

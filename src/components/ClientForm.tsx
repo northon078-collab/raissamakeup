@@ -183,16 +183,16 @@ export const ClientForm: React.FC<ClientFormProps> = ({
         </form>
       </div>
 
-      {/* BARRA FIXA PERMANENTE NA PARTE INFERIOR DA TELA */}
+      {/* BARRA FIXA FLUTUANTE ELEGANTE - ELEVADA E COM MARGEM INFERIOR */}
       <div
-        className="fixed bottom-0 left-0 right-0 z-[100] bg-white/98 backdrop-blur-md border-t-2 border-[#f7aab9] shadow-[0_-8px_30px_rgba(194,58,91,0.22)] py-3 px-4"
+        className="fixed bottom-3 left-3 right-3 sm:bottom-5 sm:left-1/2 sm:-translate-x-1/2 sm:w-full sm:max-w-xl z-[100] bg-white/98 backdrop-blur-md border border-[#f7aab9] rounded-2xl sm:rounded-3xl shadow-[0_8px_32px_rgba(194,58,91,0.28)] py-3 px-4"
         style={{
           transform: 'translate3d(0, 0, 0)',
           WebkitTransform: 'translate3d(0, 0, 0)',
-          paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom, 12px))',
+          marginBottom: 'env(safe-area-inset-bottom, 0px)',
         }}
       >
-        <div className="max-w-xl mx-auto flex items-center justify-between gap-3">
+        <div className="flex items-center justify-between gap-3">
           <div className="min-w-0 flex-1">
             <span className="text-xs font-bold text-[#b32b50] block truncate">
               {clientName.trim() ? clientName : 'Preencha seus dados'}
